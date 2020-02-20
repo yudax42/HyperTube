@@ -1,0 +1,65 @@
+@keyframes home-title-slide {
+    from {
+        opacity: .3;
+        transform: translateX(25rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+
+@keyframes home-desc-slide {
+    from {
+        opacity: .3;
+        transform: translateX(-25rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+  
+@keyframes home-btn-slide {
+    from {
+        opacity: .3;
+        transform: translateY(25rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes home-nav-slide {
+    from {
+        opacity: .3;
+        transform: translateY(-7rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes login-card-slide {
+    from {
+        opacity: .3;
+        transform: translateY(-25rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes login-links-scale {
+    from {
+        opacity: .3;
+        transform: scale(.1);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

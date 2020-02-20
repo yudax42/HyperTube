@@ -1,0 +1,5 @@
+{
+    "env": {
+        "DB_URL": "mongodb://database:27017/hypertube"
+    }
+}

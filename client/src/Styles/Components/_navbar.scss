@@ -1,0 +1,20 @@
+.logo {
+    @include logo-style;
+    font-size: 2rem !important;
+}
+  
+.h-navbar {
+    background-color: transparent;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0));
+    padding: 10px 5px !important;
+    border-bottom: 1px solid rgba($color: #fff, $alpha: .35);
+    animation: home-nav-slide 1.5s 1;
+    z-index: 3;
+}
+
+.h-navbar-abs {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+}

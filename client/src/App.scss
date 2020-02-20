@@ -1,0 +1,27 @@
+@import 'styles/base/base';
+@import 'styles/variables/main';
+@import 'styles/Mixins/main';
+
+@import 'styles/Pages/home';
+@import 'styles/Pages/login';
+@import 'styles/Pages/Register';
+@import 'styles/Pages/reset';
+@import 'styles/Pages/movies';
+@import 'styles/Pages/profile';
+@import 'styles/Pages/edit';
+@import 'styles/Pages/confirmation';
+@import 'styles/Pages/movie';
+
+@import 'styles/Animations/shared';
+@import 'styles/Animations/home';
+@import 'styles/Animations/search';
+
+@import 'styles/Components/footer';
+@import 'styles/Components/logo';
+@import 'styles/Components/navbar';
+@import 'styles/Components/buttons';
+@import 'styles/Components/inputs';
+@import 'styles/Components/movie-card';
+@import 'styles/Components/search';
+@import 'styles/Components/header';
+@import 'styles/Components/comment';

@@ -1,0 +1,21 @@
+@keyframes search-box-scale {
+    from {
+        opacity: .1;
+        transform: scale(2);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes movie-card-scale {
+    from {
+        opacity: .1;
+        transform: scale(.1);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

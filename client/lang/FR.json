@@ -1,0 +1,65 @@
+{
+    "Fields": {
+        "Home": {
+            "Register": "S'inscrire",
+            "Login": "S'identifier",
+            "Body": "HyperTube est l'une des meilleures plates-formes gratuites qui existe juste pour vous offrir une excellente expérience de visionnage de films, vous pouvez regarder les derniers films avec tous les types d'action dramatique et d'émissions de télévision avec une qualité et une vitesse élevées, nous avons une grande liste des meilleurs regarder des films de tous les temps sans frais d'abonnement.Si vous êtes nouveau ici, rejoignez-nous maintenant et commençons à regarder vos films préférés :)"
+        },
+        "Login": {
+            "Username": "Nom d'utilisateur",
+            "Password": "Mot de passe",
+            "Login": "s'identifier",
+            "Create_an_account": "Créer un compte",
+            "Reset_your_password": "réinitialisez votre mot de passe",
+            "Login_using_google": "Connectez-vous en utilisant Google",
+            "Login_using_intra": "Connectez-vous en utilisant intra"
+        },
+        "Register": {            
+            "Username": "Nom d'utilisateur",
+            "First_name": "Prénom",
+            "Last_name": "Nom de famille",
+            "Email": "Email",
+            "Password": "Mot de passe",
+            "Password_confirmation": "Confirmation mot de passe",
+            "Register": "S'inscrire",
+            "Already_have_account": "Vous avez déjà un compte?",
+            "Login": "s'identifier",
+            "Sign_up_using_google": "Inscrivez-vous à l'aide de Google,",
+            "Sign_up_using_intra": "Inscrivez-vous en utilisant intra,"
+
+        },
+        "Settings": {
+            "title" : "Réglages",
+            "placeholder_username" : "Nom d'utilisateur",
+            "placeholder_firstname" : "Prénom",
+            "placeholder_lastname" : "Nom de famille",
+            "placehodler_email" : "Email",
+            "button" : "sauvegarder",
+            "change_password" : "Changer le mot de passe",
+            "placeholder_settings" : "Réglages",
+            "placeholder_oldPassword" : "ancien mot de passe",
+            "placeholder_newPassword" : "nouveau mot de passe",
+            "placeholder_confirmationPassword" : "Confirmation mot de passe",
+            "password_button_change" : "Changement"
+        },
+        "Movies": {
+            "search": "Vous cherchez un film?",
+            "search_placeholder" : "nom du film",
+            "search_button": "chercher",
+            "thumbnail_prod_year" : "Prod-Year",
+            "thumbnail_rating" : "Évaluation",
+            "thumbnail_watch" : "Regarder"
+        },
+        "MoviePage" : {
+            "movie_prod_year" : "Année de production",
+            "movie_rating" : "Évaluation du film",
+            "comment_like" : "aimer",
+            "comment": "commentaire",
+            "submit_comment" : "commenter"
+        }
+    },
+    "Errors": {
+
+    }
+
+}

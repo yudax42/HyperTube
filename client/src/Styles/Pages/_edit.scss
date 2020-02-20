@@ -1,0 +1,22 @@
+.Editpage {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    background:
+      radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 100%), 
+      url('../../Images/snowden.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+    &::after {
+      content: '';
+      width: 100vw;
+      height: 100%;
+      background-color: rgba($color: #000000, $alpha: .6);
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      animation: h-bg-fade 1.5s 1;
+    }
+  }

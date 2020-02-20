@@ -1,0 +1,67 @@
+.h-nav-btn {
+    padding: 3px 20px !important;
+    font-size: 1.4rem !important;
+    border-radius: 2px;
+    transition: all .3s ease-in-out;
+}
+
+.h-btn {
+    padding: 5px 30px !important;
+    font-size: 1.4rem !important;
+    border-radius: 2px;
+    transition: all .3s ease-in-out;
+}
+  
+.h-btn-primary {
+    color: #fff !important;
+    background-color: $color-primary !important;
+    box-shadow: 0px 10px 15px rgba($color: $color-primary, $alpha: .3) !important;
+    transition: all .3s ease-in-out;
+    &:hover{
+        box-shadow: 0px 10px 15px rgba($color: $color-primary, $alpha: .5) !important;
+    }
+}
+
+.h-btn-secondary {
+    color: #fff !important;
+    background-color: $color-secondary !important;
+    transition: all .3s ease-in-out;
+    &:hover{
+        background-color: rgba($color: #fff, $alpha: .4) !important;
+    }
+}
+
+.h-btn-sblock {
+    width: 90%;
+    padding: .7rem 1.4rem !important;
+    font-size: 1.8rem !important;
+}
+
+.h-btn-bblock {
+    width: 100%;
+    padding: .7rem 1.4rem !important;
+    font-size: 1.8rem !important;
+}
+
+.h-btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3.5rem;
+    color: rgba($color: #fff, $alpha: .4);
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+    border-radius: 0 0 0 100%;
+    transition: all .3s ease-in-out;
+    & .far {
+      margin-top: -2rem;
+      margin-right: -1.1rem;
+      font-size: 2.5rem;
+    }
+  
+    &:hover {
+      color: #fff;
+      background-color: $color-primary;
+    }
+  }

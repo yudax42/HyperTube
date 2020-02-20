@@ -1,0 +1,177 @@
+.h-input {
+    padding: 2rem 2rem 1.5rem 2rem !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid rgba($color: #fff, $alpha: .35) !important;
+    margin: auto;
+    width: 90% !important;
+    border-radius: 0 !important;
+    text-align: center;
+    color: rgba($color: #fff, $alpha: .35) !important;
+    font-size: 2rem !important;
+    font-weight: 300 !important;
+    transition: all .3s ease-in-out !important;
+    &::placeholder {
+      font-size: 2rem;
+      color: rgba($color: #fff, $alpha: .35) !important;
+    }
+    &:focus {
+      font-size: 2rem;
+      font-weight: 500 !important;
+      color: #fff !important;
+      border-bottom-color: #fff !important;
+    }
+}
+
+.h-text-area {
+  border: 2px solid rgba($color: #fff, $alpha: .35) !important;
+  font-size: 1.6rem !important;
+  &:focus {
+      font-size: 1.6rem !important;
+      font-size: 2rem;
+      font-weight: 500 !important;
+      color: #fff !important;
+      border-color: #fff !important;
+  }
+}
+
+.h-links {
+  display: block;
+  font-family: 'Lato' sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0;
+  animation: login-links-scale 1.5s 1s 1 forwards;
+  & .h-link, & .h-link:visited{
+      color : #fff !important;
+      text-decoration: none;
+      transition: all .3s ease-in-out;
+  }
+  & .h-link:hover {
+      color : $color-primary !important;
+      text-decoration: none !important;
+  }
+}
+
+.h-input-card {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+  right: 0;
+  z-index: 2;
+  transform: translateY(-50%);
+  overflow: hidden;
+  overflow-y: auto;
+  & .content {
+      text-align: center;
+      color: #fff;
+      padding: 0 2rem 2rem 2rem;
+      overflow-y: auto;
+      animation: login-card-slide 1.5s 1;
+  }
+}
+
+@media screen and (max-height : 750px) {
+    .h-input-card {
+        width: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        z-index: 2;
+        transform: translateY(0);
+        & .content {
+            text-align: center;
+            color: #fff;
+            padding: 0 2rem 2rem 2rem;
+            overflow-y: auto;
+            animation: login-card-slide 1.5s 1;
+        }
+    }
+}
+
+.h-error {
+  color: $color-primary;
+  font-size: 1.2rem;
+}
+
+.h-status-response {
+  width: 90%;
+  margin: auto;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.h-success {
+  border: 1px solid #01d28e;
+  background-color: transparent;
+  color: #01d28e;
+}
+
+.h-failure {
+  border: none;
+  background-color: $color-primary;
+  color: #fff;
+}
+
+.edit-profile-picture {
+  align-self: center;
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  min-width: 15rem;
+  min-height: 15rem;
+  max-width: 25rem;
+  max-height: 25rem;
+  background-color: #000;
+  border-radius: 100%;  
+  overflow: hidden;
+  border: 2px solid #000;
+  transition: all .5s ease-in-out;
+  & .picture{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1515138692129-197a2c608cfd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: all .5s ease-in-out;
+      & .edit-input {
+          display: none;
+      }
+      & .edit-label {
+          background-color: transparent;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+      }
+  }
+  &:hover .picture {
+      transform: scale(1.2);
+      filter: grayscale(1);
+      cursor: pointer;
+  }
+}
+
+.h-input-select {
+  padding: 1rem 2rem 1rem 2rem !important;
+  background-color: transparent !important;
+  border: 2px solid rgba($color: #fff, $alpha: .35) !important;
+  width: 90% !important;
+  border-radius: 0 !important;
+  text-align: center;
+  color: rgba($color: #fff, $alpha: .35) !important;
+  font-size: 2rem !important;
+  font-weight: 300 !important;
+  transition: all .3s ease-in-out !important;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.t-center { text-align: center; }

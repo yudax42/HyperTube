@@ -1,0 +1,65 @@
+{
+    "Fields": {
+        "Home": {
+            "Register": "Register",
+            "Login": "Login",
+            "Body": "HyperTube is one of the best free platforms that exists just to provide you with a great movie watching experience, you can watch the latest movies with all types drama comedy action and tv shows with a high quality and speed we have a great list of the best watched movies of all the time with no subscription charges.if u are new here join us now and let’s start watching your favorite movies :)"
+        },
+        "Login": {
+            "Username": "Username",
+            "Password": "Password",
+            "Login": "Login",
+            "Create_an_account": "Create an account",
+            "Reset_your_password": "Rest your password",
+            "Login_using_google": "Login using google",
+            "Login_using_intra": "Login using intra"
+        },
+        "Register": {            
+            "Username": "Username",
+            "First_name": "First name",
+            "Last_name": "Last name",
+            "Email": "Email",
+            "Password": "Password",
+            "Password_confirmation": "Password Confirmation",
+            "Register": "Register",
+            "Already_have_account": "Already have an account?",
+            "Login": "Login",
+            "Sign_up_using_google": "Sign up using google,",
+            "Sign_up_using_intra": "Sign up using intra,"
+
+        },
+        "Settings": {
+            "title" : "Settings",
+            "placeholder_username" : "Username",
+            "placeholder_firstname" : "First name",
+            "placeholder_lastname" : "Last Name",
+            "placehodler_email" : "Email",
+            "button" : "Save",
+            "change_password" : "Change Password",
+            "placeholder_settings" : "Settings",
+            "placeholder_oldPassword" : "Old Password",
+            "placeholder_newPassword" : "New Password",
+            "placeholder_confirmationPassword" : "Password confirmation",
+            "password_button_change" : "Change"
+        },
+        "Movies": {
+            "search": "Looking for a movie ?",
+            "search_placeholder" : "movie name",
+            "search_button": "search",
+            "thumbnail_prod_year" : "Prod-Year",
+            "thumbnail_rating" : "Rating",
+            "thumbnail_watch" : "Watch"
+        },
+        "MoviePage" : {
+            "movie_prod_year" : "Production Year",
+            "movie_rating" : "Movie rating",
+            "comment_like" : "Like",
+            "comment": "Comment",
+            "submit_comment" : "comment"
+        }
+    },
+    "Errors": {
+
+    }
+
+}

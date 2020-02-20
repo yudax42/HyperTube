@@ -1,0 +1,52 @@
+.homepage {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  background:
+    radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 100%), 
+    url('../../Images/starwars.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  overflow-y: auto;
+
+  & .h-content {
+    position: absolute;
+    top: 35vh;
+    color: #fff;
+    transform: translateY(-40%);
+    padding: 1rem;
+  }
+  
+  & .h-title {
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+    animation: home-title-slide 1.5s 1;
+  }
+  
+  & .h-text {
+    font-size: 2rem;
+    font-weight: 100;
+    animation: home-desc-slide 1.5s 1;
+  }
+  
+  & .h-btn-holder {
+    padding: 0 1.2rem 2rem 1.2rem;
+    animation: home-btn-slide 1.5s 1;
+  }
+}
+
+.h-fsize-1 {
+  font-size: 1.5rem !important;
+}
+
+@media screen and (max-height : 750px) {
+  .homepage {
+      & .h-content {
+      margin-top: 10rem;
+      padding: 1rem;
+      }
+  }  
+}

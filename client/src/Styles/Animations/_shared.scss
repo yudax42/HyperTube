@@ -1,0 +1,19 @@
+@keyframes h-bg-fade {
+    from {
+        background-color: rgba($color: #000000, $alpha: 1);
+    }
+    to {
+        background-color: rgba($color: #000000, $alpha: .6);
+    }
+}
+
+@keyframes scale-and-slide-profile {
+    from {
+        opacity: .1;
+        transform: scale(.1);
+    }
+    to {
+        opacity: 1;
+        transform:scale(1);
+    }
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    // transition: all .3s ease-in-out;
+}
+
+html {
+    font-family: 'Lato' sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000 !important;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
