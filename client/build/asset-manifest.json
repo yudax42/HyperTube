@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccf14d4d.chunk.css",
+    "main.js": "/static/js/main.6d252567.chunk.js",
+    "main.js.map": "/static/js/main.6d252567.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6f1a7f07.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6f1a7f07.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.e409de00.chunk.js": "/static/js/2.e409de00.chunk.js",
+    "static/js/2.e409de00.chunk.js.map": "/static/js/2.e409de00.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ade6b780c2f368e490e0144a68dba5df.js": "/precache-manifest.ade6b780c2f368e490e0144a68dba5df.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.ccf14d4d.chunk.css.map": "/static/css/main.ccf14d4d.chunk.css.map",
+    "static/js/2.e409de00.chunk.js.LICENSE": "/static/js/2.e409de00.chunk.js.LICENSE",
+    "static/media/App.scss": "/static/media/starwars.4594356d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f1a7f07.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.e409de00.chunk.js",
+    "static/css/main.ccf14d4d.chunk.css",
+    "static/js/main.6d252567.chunk.js"
+  ]
+}
