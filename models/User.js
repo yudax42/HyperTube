@@ -42,8 +42,8 @@ userSchema.methods.sendMail = function (subject, message) {
         service: 'gmail',
         secure: false,
         auth: {
-            user: 'elbouazizihamza@gmail.com',
-            pass: 'qzyuruuydsrqwzjd'
+            user: '', // add your email here
+            pass: '' // and password
         },
         tls: {
             rejectUnauthorized: false
@@ -51,7 +51,7 @@ userSchema.methods.sendMail = function (subject, message) {
     });
 
     var HelperOptions = {
-        from: '"GALATA" galata@gmail.com',
+        from: '"HyperTube" galata@gmail.com',
         to: this.mail,
         subject: subject,
         text: message
